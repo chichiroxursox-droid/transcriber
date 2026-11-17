@@ -1,0 +1,24 @@
+# Recordings and transcripts of real conversations: never commit
+transcripts/
+*.wav
+*.aiff
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Third-party AudioTee clone (its own git repo; see README to fetch and build)
+vendor/
+
+# Environments, caches, scratch, tool state
+.venv/
+__pycache__/
+*.pyc
+.tmp/
+.planning/
+.playwright-mcp/
+*.log
+
+# Personal task tracker
+tasks/todo.md
